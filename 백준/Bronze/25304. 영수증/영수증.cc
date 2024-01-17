@@ -10,12 +10,5 @@ int main() {
 		cin >> a >> b;
 		sum += a * b;
 	}
-
-	if (sum == x) {
-		cout << "Yes";
-	}
-	else {
-		cout << "No";
-	}
-	//cout << ((x == sum) ? "yes" : "no");
+	cout << ((x == sum) ? "Yes" : "No");
 }
